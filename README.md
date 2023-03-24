@@ -9,9 +9,10 @@ http://localhost:8080/send-email/send
 
 ### E Informe os dados abaixo no body:
 
-
+```JSON
 {
-"to": "aqui vai o email que irá receber a mensagem",
-"subject": "Assunto do email",
-"body": "Conteúdo do email Exemplo: Estou aqui para testar o envio de email a cada 1 minuto."
+  "to": "aqui vai o email que irá receber a mensagem",
+  "subject": "Assunto do email",
+  "body": "Conteúdo do email Exemplo: Estou aqui para testar o envio de email a cada 1 minuto."
 }
+```
